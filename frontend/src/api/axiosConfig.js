@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3000", // backend server
+  baseURL: "https://eduquery-ifh6.onrender.com", // backend server
 });
 
 export default api;
